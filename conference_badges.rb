@@ -17,8 +17,11 @@ def assign_rooms (array)
   open_room = 1;
   
   array.each do |speaker|
-    room_assignments << ""
+    room_assignments << "Hello, #{speaker}! You'll be assigned to room #{open_room}!"
+    open_room += 1 
   end
+  
+  return room_assignments
 end
 
 
