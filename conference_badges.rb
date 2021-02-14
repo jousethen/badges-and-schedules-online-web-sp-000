@@ -32,6 +32,9 @@ def printer(speakers)
   batch.each do |b|
     puts b
   end
+  room_assignments.each do |b|
+    puts b
+  end
   
 end
 
