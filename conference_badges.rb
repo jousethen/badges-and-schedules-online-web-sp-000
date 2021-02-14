@@ -6,7 +6,7 @@ def batch_badge_make(array)
   batch = []
   
   array.each do |badge|
-    
+    batch << badge_maker(badge)
   end
 end
 
