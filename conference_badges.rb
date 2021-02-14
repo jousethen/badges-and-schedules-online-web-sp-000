@@ -14,6 +14,11 @@ end
 
 def assign_rooms (array)
   room_assignments = []
+  open_room = 1;
+  
+  array.each do |speaker|
+    room_assignments << ""
+  end
 end
 
 
